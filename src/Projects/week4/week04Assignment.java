@@ -61,7 +61,7 @@ public static boolean isSumGreaterThan100(int[] ages, int sum)	{
 	}
 	//Step 12 method
 public static boolean willBuyDrink(boolean isHotOutside, double moneyInPocket)		{
-int temp; 
+int temp = 0; 
 isHotOutside = temp > 80;
 moneyInPocket = 0;
 boolean willBuyDrink = ((isHotOutside) && (moneyInPocket > 10.50));	
